@@ -38,7 +38,7 @@ namespace Arrays
             }
             catch (IndexOutOfRangeException ex)
             {
-                Console.WriteLine($"Exception: {ex.Message}");
+                Console.WriteLine("Exception: {ex.Message}");
             }
         }
 
